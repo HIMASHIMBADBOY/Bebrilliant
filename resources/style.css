@@ -1,0 +1,52 @@
+
+body {
+  
+  background-color: #1e1e1e;
+}
+
+form, .content {
+  width: 30%;
+  margin: 250px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background:  whitesmoke;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 5px rgba(45, 43, 43, 0.5);
+
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  color: white; 
+  cursor: pointer;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover{
+ color: #fff;
+ background-color: #235354;
+ transition: .5s; 
+}
